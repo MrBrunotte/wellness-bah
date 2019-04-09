@@ -7,22 +7,7 @@ h1 {
     letter-spacing: 0.2em;
 }
 
-/*!---------------------LOGO SETTINGS--------------------*/
 
-.sb {
-  color: rgba(92, 92, 92, 0.4);
-  font-size: 0.5em;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-align: center;
-}
-
-.sb p::first-line {
-  color: rgba(136, 1, 1, 0.4);
-  font-variant: small-caps;
-}
-
-/*!--------------------- END LOGO SETTINGS--------------------*/
 
 .carousel-subheading {
     text-transform: capitalize;
@@ -31,13 +16,11 @@ h1 {
 }
 
 .carousel-caption p {
-
   margin-bottom: -1.75rem !important;
   font-size: 1.25rem;
   line-height: 1.4;
 
 }
-
 
 /*!--------------NAVBAR-------------------*/
 
@@ -366,6 +349,22 @@ video {
   text-transform: capitalize;
 }
 
+/*!---------------------LOGO SETTINGS--------------------*/
+.sb {
+  color: rgba(176, 0, 0, 0.4);
+  font-size: 0.6em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.sb p::first-line {
+  color: rgba(136, 1, 1, 0.4);
+  font-variant: small-caps;
+}
+
+/*!--------------------- END LOGO SETTINGS--------------------*/
+
 
 /*!--------------RESPONSIVE CSS-------------------*/
   
@@ -387,3 +386,4 @@ video {
       margin-top: 7rem;
     }
   }
+
