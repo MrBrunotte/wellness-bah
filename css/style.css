@@ -7,6 +7,23 @@ h1 {
     letter-spacing: 0.2em;
 }
 
+/*!---------------------LOGO SETTINGS--------------------*/
+
+.sb {
+  color: rgba(92, 92, 92, 0.4);
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-align: center;
+}
+
+.sb p::first-line {
+  color: rgba(136, 1, 1, 0.4);
+  font-variant: small-caps;
+}
+
+/*!--------------------- END LOGO SETTINGS--------------------*/
+
 .carousel-subheading {
     text-transform: capitalize;
     letter-spacing: 0.2em;
@@ -132,9 +149,6 @@ h1 {
 
 
 /*!--------------SECTIONS-------------------*/
-.coaching-section{
-  height: 129vh;
-}
 
 .wellness-section {
   margin-top: -80px;
@@ -196,9 +210,7 @@ h1 {
   -------------------------------------------------- */
   
   /* Center align the text within the three columns below the carousel */
-   .marketing-coaching{
-      height:40vh;
-   }
+   
    
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
@@ -215,35 +227,20 @@ h1 {
   #vitality {
     padding-top: 0;
     margin-top: 0;
-  }
+  }  
 
-  #photos {
-    height: 100vh;
-  }
-  #lifestyle {
-    height: 100vh;
-  }
-
-  #myvision {
-    height: 100vh;
-  }
-
-  #lifestyle {
-    margin-top: 130px;
-  }
-
-  #courses {
-    height: 100vh;
-  }
-
+  #lifestyle,
+  #courses,
+  #coaching,
   #testimonials {
     height: 100vh;
   }
 
+
   /* Featurettes
   ------------------------- */
-  .featurette {
-    margin-top: 0px !important;
+  .featurette-top {
+    margin-top: 70px;
   }
 
   .featurette-divider {
@@ -282,7 +279,6 @@ h1 {
 .sb p::first-line {
     color: rgba(136, 1, 1, 0.4);
     font-variant: small-caps;
-    
 }
 
 
