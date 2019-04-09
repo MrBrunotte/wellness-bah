@@ -13,6 +13,14 @@ h1 {
     font-weight: bold;
 }
 
+.carousel-caption p {
+
+  margin-bottom: -1.75rem !important;
+  font-size: 1.25rem;
+  line-height: 1.4;
+
+}
+
 
 /*!--------------NAVBAR-------------------*/
 
@@ -122,6 +130,26 @@ h1 {
   text-decoration: none;
 }
 
+
+/*!--------------SECTIONS-------------------*/
+.coaching-section{
+  height: 129vh;
+}
+
+.wellness-section {
+  margin-top: -80px;
+}
+
+/*!--------------FORMS files-------------------*/
+
+.forms {
+  height: 100vh;
+}
+
+.img-forms {
+  margin-top: 0px !important;
+}
+
 /*-------------------------------- END BUTTONS -------------------------*/
 
 /*!--------------CAROUSEL-------------------*/
@@ -168,6 +196,10 @@ h1 {
   -------------------------------------------------- */
   
   /* Center align the text within the three columns below the carousel */
+   .marketing-coaching{
+      height:40vh;
+   }
+   
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -185,11 +217,33 @@ h1 {
     margin-top: 0;
   }
 
+  #photos {
+    height: 100vh;
+  }
+  #lifestyle {
+    height: 100vh;
+  }
+
+  #myvision {
+    height: 100vh;
+  }
+
+  #lifestyle {
+    margin-top: 130px;
+  }
+
+  #courses {
+    height: 100vh;
+  }
+
+  #testimonials {
+    height: 100vh;
+  }
 
   /* Featurettes
   ------------------------- */
-  .featuretteone {
-    background-color: rgb(255, 136, 0);
+  .featurette {
+    margin-top: 0px !important;
   }
 
   .featurette-divider {
@@ -236,19 +290,40 @@ h1 {
 /*!--------------IMAGES-------------------*/
 
 .first-slide-img {
+  margin-top: 10px;
   width: 100%;
   opacity: 0.7;
 } 
 
 .img-circle {
   border-radius: 50% !important;
-  margin-top: -30px;
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .image-center-right{
     margin-left: 40px;
     margin-top: 85px;
+}
+
+.img-ruth-kitchen {
+  margin-top: 110px !important;
+}
+
+.coaching-img {
+  margin-top: 55px;
+}
+
+.img-padding{
+  margin-right: 300px;
+}
+
+.img-testimonial {
+  justify-content: center;
+}
+
+.img-top {
+  margin-top: 0px !important;
 }
 
 /*.image-center-course { 
@@ -286,6 +361,7 @@ h1 {
 video {
   width: 80%;
 }
+
 
 
 /*!--------------CONTACT FORM-------------------*/

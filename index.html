@@ -58,7 +58,7 @@
     <!-- NAVBAR -->
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="#">Wellness</a>
+            <a class="navbar-brand" href="#main">Wellness</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -66,9 +66,6 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#vitality">Vitality <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#coaching">Coaching</a>
                     </li>
                     <li class="nav-item">
@@ -84,7 +81,7 @@
     </header>
 
     <!--! Home/Wellness section -->
-    <main role="main">
+    <main role="main" id="main">
 
         <div class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -102,7 +99,6 @@
                         <div class="carousel-caption">
                             <h1>Plant-Based healthy living</h1>
                             <p class="carousel-subheading">the secret to your future health!</p>
-                            <p><a class="btn btn-readmore" href="#" role="button">Read more &raquo;</a></p>
                         </div>
                     </div>
                 </div>
@@ -115,7 +111,6 @@
                         <div class="carousel-caption">
                             <h1>Coaching program</h1>
                             <p class="carousel-subheading">sign up for the coaching program!</p>
-                            <p><a class="btn btn-readmore" href="#coaching" role="button">Read more &raquo;</a></p>
                         </div>
                     </div>
                 </div>
@@ -129,8 +124,6 @@
                             <h1>courses</h1>
                             <p class="carousel-subheading">Start the next step towards your future health by taking one
                                 of my three courses!</p>
-                            <p><a class="btn btn-readmore" href="#courses" role="button">Read more &raquo;</a>
-                            </p>
                         </div>
                     </div>
                 </div>
@@ -148,55 +141,59 @@
 
         <div class="container marketing" id="vitality">
             <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4" id="myvisionstart">
-                    <img src="img\sunrise_fixed.jpg" class="img-circle" width="140" height="140" />
-                    <h2>My vision</h2>
-                    <p>Welcome to my page! <br />My goal and vision is to show you the path towards a healthier you and
-                        great
-                        lifestyle.</p>
-                    <p><a class="btn btn-readmore" href="#myvision" role="button">Read more &raquo;</a></p>
+            <div class="wellness-section">
+                <div class="row">
+                    <div class="col-lg-4" id="myvisionstart">
+                        <img src="img\sunrise_fixed.jpg" class="img-circle" width="140" height="140" />
+                        <h2>My vision</h2>
+                        <p>Welcome to my page! <br />My goal and vision is to show you the path towards a healthier you
+                            and
+                            great
+                            lifestyle.</p>
+                        <p><a class="btn btn-readmore" href="#myvision" role="button">Read more &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4" id="photosstart">
+                        <img src="img\sunrise_fixed.jpg" class="img-circle" width="140" height="140" />
+                        <h2>Photos & Videos</h2>
+                        <p>In this section you will find photos of my daily life, my kitchen and cooking and much more.
+                        </p>
+                        <p><a class="btn btn-readmore" href="#photos" role="button">Read more &raquo;</a></p>
+                    </div>
+                    <div class="col-lg-4" id="lifestylestart">
+                        <img src="img\sunrise_fixed.jpg" class="img-circle" width="140" height="140" />
+                        <h2>Lifestyle</h2>
+                        <p>This part is a glimpse into my lifestyle as a plant-based practitioner, my yoga practice and
+                            a
+                            bit more.</p>
+                        <p><a class="btn btn-readmore" href="#lifestyle" role="button">Read more &raquo;</a></p>
+                    </div>
                 </div>
-                <div class="col-lg-4" id="photosstart">
-                    <img src="img\sunrise_fixed.jpg" class="img-circle" width="140" height="140" />
-                    <h2>Photos & Videos</h2>
-                    <p>In this section you will find photos of my daily life, my kitchen and cooking and much more.</p>
-                    <p><a class="btn btn-readmore" href="#photos" role="button">Read more &raquo;</a></p>
-                </div>
-                <div class="col-lg-4" id="lifestylestart">
-                    <img src="img\sunrise_fixed.jpg" class="img-circle" width="140" height="140" />
-                    <h2>Lifestyle</h2>
-                    <p>This part is a glimpse into my lifestyle as a plant-based practitioner, my yoga practice and a
-                        bit more.</p>
-                    <p><a class="btn btn-readmore" href="#lifestyle" role="button">Read more &raquo;</a></p>
-                </div>
+                <!--! END Home/Wellness section -->
             </div>
-            <!--! END Home/Wellness section -->
-
             <!--! My Vision/Photos/Lifestyle section -->
-            <div class="container">
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7" id="myvision">
+            <div class="container myvision-container">
+                <br /><br /><br /><br />
+                <div class="row featurette" id="myvision">
+                    <div class="col-md-7">
                         <h2 class="featurette-heading">My vision</h2>
                         <br />
                         <h3 class="featurette-subheading">Your health is my
                             goal!</h3>
                         <br />
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
-                            felis
-                            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-                            dapibus,
-                            tellus ac cursus commodo.</p>
-                        <p><a class="btn btn-readmore" href="#lifestylestart" role="button">&laquo; Go
+                        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt aspernatur
+                            blanditiis velit sint impedit hic ipsa, adipisci distinctio voluptates laudantium sunt
+                            fugiat excepturi tempora rem tempore vel cumque reprehenderit labore at soluta sequi amet
+                            quae voluptatum. Nulla itaque sint, ut repudiandae nam nobis necessitatibus fugit!
+                            Voluptatem fugit ab omnis quos.</p>
+                        <p><a class="btn btn-readmore" href="#main" role="button">&laquo; Go
                                 back</a></p>
                     </div>
-                    <div class="col-md-5">
-                        <img src="img\Ruth400.jpg" alt="Ruth selfie" class="image-center-right">
+                    <div class="col-md-5" style="margin-top: 102px;">
+                        <img src="img\Ruth400.jpg" alt="Ruth kitchen" class="img-fluid">
                     </div>
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
+                <hr>
+                <div class="row featurette" id="#photos">
                     <div class="col-md-7 order-md-2" id="photos">
                         <h2 class="featurette-heading">A video & photos</h2>
                         <br />
@@ -209,142 +206,232 @@
                             the beach when the sun rises! <br />Take a look at my pictures..</p>
                         <p><a class="btn btn-readmore" href="#" role="button">View photos &raquo;</a></p>
                     </div>
-                    <div class="col-md-5 order-md-1">
-                        <div class="wrapper-video">
-                            <video src="video\janine_yoga_video.mp4" autoplay poster="img\yoga400.jpg"
-                                class="img-yoga-video " controls></video>
+                    <div class="col-md-5 order-md-1" style="margin-top: 108px;">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="video\janine_yoga_video.mp4"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <hr class="featurette-divider">
-                <div class="row featurette">
-                    <div class="col-md-7" id="lifestyle">
+                <hr>
+                <div class="row featurette" id="lifestyle">
+                    <div class="col-md-7">
                         <h2 class="featurette-heading">Lifestyle</h2>
                         <br />
                         <h3 class="featurette-subheading">A peak into your future lifestyle!</h3>
                         <br />
-                        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
-                            felis
-                            euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce
-                            dapibus,
-                            tellus ac cursus commodo.</p>
-                        <p><a class="btn btn-readmore" href="#lifestylestart" role="button">&laquo; Go back</a></p>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus sed
+                            temporibus ullam ratione quo esse praesentium quod quidem. Veritatis, qui magni, aspernatur
+                            alias ratione amet commodi sed iure ab minima asperiores cum dolores possimus ipsam nam
+                            error labore excepturi. Obcaecati maiores animi provident error atque repudiandae molestias
+                            enim tempore debitis.</p>
+                        <p><a class="btn btn-readmore" href="#main" role="button">&laquo; Go back</a></p>
                     </div>
                     <div class="col-md-5">
-                        <img src="img\Ruth kitchen400.jpg" alt="Ruth kitchen" class="image-center-right">
+                        <img src="img\Ruth kitchen400.jpg" alt="Ruth kitchen" class="img-fluid img-ruth-kitchen">
                     </div>
                 </div>
-                <hr class="featurette-divider">
+                <hr>
             </div>
         </div>
         <!--! END My Vision/Photos/Lifestyle section -->
 
         <!--! COACHING SECTION -->
-        <div class="carousel slide" data-ride="carousel" id="coaching">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="first-slide-img" src="img\bowl_fixed.jpg" alt="Bowl of food in hands">
+        <div class="coaching-section">
+            <div class="carousel slide" data-ride="carousel" id="coaching">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide-img coaching-img" src="img\bowl_fixed.jpg" alt="Bowl of food in hands">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Coaching program</h1>
+                                <p class="carousel-subheading">Take control of your health by following my coaching
+                                    program!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Three columns of text below the carousel -->
+
+            <div class="container marketing marketing-coaching">
+
+                <div class="row" id="whatisit">
+                    <div class="col-lg-4">
+                        <h2>What is it?</h2>
+                        <p>I offer three different coaching programs <i><strong>Kick-Start-, Newbie- and 3-Month
+                                    Coaching</strong></i>. The
+                            courses
+                            span over 12 week period and they cover everything from the basic equipment to planing and
+                            cooking. The courses are flexible in so that they will suit anyone regardless to their prior
+                            knowledge!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>How does it work?</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+                            elit.
+                            Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
+                        </p>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Get started!</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
+                            id
+                            ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                            condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    </div>
                     <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Coaching program</h1>
-                            <p class="carousel-subheading">Take the first step towards your future health by attending
-                                one of my courses!</p>
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-auto">
+                                <p><a class="btn btn-readmore" role="button" href="coaching.html" target="_blank">More
+                                        info
+                                        &raquo;</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Three columns of text below the carousel -->
-        <div class="container marketing">
-            <div class="row" id="whatisit">
-                <div class="col-lg-4">
-                    <h2>What is it?</h2>
-                    <p>I offer three different coaching programs <i><strong>Kick-Start-, Newbie- and 3-Month
-                                Coaching</strong></i>. The
-                        courses
-                        span over 12 week period and they cover everything from the basic equipment to planing and
-                        cooking. The courses are flexible in so that they will suit anyone regardless to their prior
-                        knowledge!</p>
-                    <p><a class="btn btn-readmore" role="button" href="contact.html" target="_blank">More info
-                            &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <h2>How does it work?</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-                        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
-                        tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-readmore" role="button" href="contact.html" target="_blank">More info
-                            &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <h2>Get started!</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id
-                        ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-readmore" role="button" href="coaching.html" target="_blank">More info
-                            &raquo;</a></p>
-                </div>
-            </div>
-            <!--! END COACHING SECTION-->
-        </div>
-
+        <!--! END COACHING SECTION-->
 
         <!--! COURSES SECTION-->
-        <div class="carousel slide" data-ride="carousel" id="courses">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="first-slide-img" src="img\courses.jpg" alt="Chef working">
-                    <div class="container">
-                        <div class="carousel-caption">
-                            <h1>Culanary courses</h1>
-                            <p class="carousel-subheading">Take the first step towards your future health by attending
-                                one of my courses!</p>
+        <div id="courses">
+            <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide-img" src="img\courses.jpg" alt="Chef working">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Culanary courses</h1>
+                                <p class="carousel-subheading">Take the first step towards your future health by
+                                    attending
+                                    one of my courses!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Three columns of text below the carousel -->
-        <div class="container marketing">
-            <div class="row" id="#kick-start">
-                <div class="col-lg-4">
-                    <h2>kick-Start</h2>
-                    <p>I offer three different courses <i><strong>Kick-Start, Vegan and Vegeterian</strong></i>. The
-                        courses
-                        span over 12 week period and they cover everything from the basic equipment to planing and
-                        cooking. The courses are flexible in so that they will suit anyone regardless to their prior
-                        knowledge!</p>
-                    <p><a class="btn btn-readmore" href="#myvision" role="button">View details &raquo;</a></p>
+            <!-- Three columns of text below the carousel -->
+            <div class="container marketing">
+                <div class="row" id="#kick-start">
+                    <div class="col-lg-4">
+                        <h2>kick-Start</h2>
+                        <p>I offer three different courses <i><strong>Kick-Start, Vegan and Vegeterian</strong></i>. The
+                            courses
+                            span over 12 week period and they cover everything from the basic equipment to planing and
+                            cooking. The courses are flexible in so that they will suit anyone regardless to their prior
+                            knowledge!</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>individual vegan cooking class</h2>
+                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+                            elit.
+                            Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
+                            tortor mauris condimentum nibh.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>semi-Private vegan cooking class</h2>
+                        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
+                            id
+                            ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                            condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <h2>individual vegan cooking class</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
-                        elit.
-                        Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
-                        tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-readmore" href="#photos" role="button">View details &raquo;</a></p>
-                </div>
-                <div class="col-lg-4">
-                    <h2>semi-Private vegan cooking class</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum
-                        id
-                        ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-                        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn btn-readmore" role="button" href="courses.html" target="_blank">View details
-                            &raquo;</a></p>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-auto">
+                        <p><a class="btn btn-readmore" role="button" href="courses.html" target="_blank">More
+                                info
+                                &raquo;</a></p>
+                    </div>
                 </div>
             </div>
-            <!--! END COURSES SECTION-->
         </div>
+        <!--! END COURSES SECTION-->
+        <!--! TESTIMONIALS SECTION-->
+        <div class="carousel slide" data-ride="carousel" id="testimonials">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active">test</li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="first-slide-img img-top" src="img\beach.jpg" alt="Vegtables on table">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                        <rect width="100%" height="100%" fill="#777" /></svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>&rdquo;I should have started the course sooner!&rdquo; <br /><br /> - Stefan -
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="first-slide-img img-top" src="img\beach.jpg" alt="Vegtables on table">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                        <rect width="100%" height="100%" fill="#777" /></svg>
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1><i>&rdquo;I love your coaching program!&rdquo; </i><br /><br /> - Rebecca -</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-auto">
+                                <img src="img\Stefan center.jpg" class="img-circle" width="200" height="200" />
+                                <h2 class="text-center">Vegan course</h2>
+                                <p class="text-center">&rdquo;Kick-start course got me on track! I am so greatful and
+                                    happy
+                                    for this opportunity! The course was easy to follow along and it taught me the
+                                    basics
+                                    and
+                                    worked from there. I laid a good foundation of knowledge! I am still on track and I
+                                    love
+                                    it!&rdquo;<br /><br /> - Stefan -</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img\Rebecca center.jpg" class="img-circle" width="200" height="200" />
+                        <h2 class="text-center">Vegan course</h2>
+                        <p class="text-center">&rdquo;The coaching program tought me a totally new way of thinking about
+                            my health! Now
+                            I
+                            know what to look out for, things that I previously thought was health, and now know is
+                            bad
+                            for me. Thanks Ruth for getting me on the right track and being the lovely person you
+                            are!&rdquo;;<br /><br /> - Rebecca -</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--! END TESTIMONIALS SECTION-->
     </main>
     <hr>
-    <footer>
-        <div class="sb" id="stefanbrunotte">
-            <h6><strong>Web DeBB</strong></h6>
-            <p>Web Design By Brunotte<br />© 2019</p>
-        </div>
-    </footer>
+    <div class="container">
+        <footer>
+            <div class="sb" id="stefanbrunotte">
+                <h6><strong>Web DeBB</strong></h6>
+                <p>Web Design By Brunotte<br />© 2019</p>
+            </div>
+        </footer>
+    </div>
 
 
 
