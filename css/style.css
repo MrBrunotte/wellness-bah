@@ -212,9 +212,18 @@ h1 {
     margin-top: 0;
   }  
 
-  #lifestyle,
-  #courses,
-  #coaching,
+  #lifestyle {
+    height: 100vh;
+  }
+
+  #courses {
+    height: 100vh;
+  }
+
+  #coaching {
+    height: 100vh;
+  }
+
   #testimonials {
     height: 100vh;
   }
