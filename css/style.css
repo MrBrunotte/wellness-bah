@@ -228,6 +228,27 @@ h1 {
     height: 100vh;
   }
 
+  .new-background {
+    background-color: #c7c7c7;
+    margin-top: -64px;
+    padding-top: 64px;
+    padding-bottom: 73px;
+  }
+
+  .new-background-top {
+    background-color: #c7c7c7;
+    margin-top: -64px;
+    padding-top: 64px;
+    padding-bottom: -56px;;
+  }
+
+  .background-testimonials {
+    background-color: #c7c7c7;
+    margin-top: -64px;
+    padding-top: 64px;
+    padding-bottom: 73px;
+  }
+
 
   /* Featurettes
   ------------------------- */
@@ -299,7 +320,7 @@ h1 {
 }
 
 .coaching-img {
-  margin-top: 55px;
+  margin-top: 56px;
 }
 
 .img-padding{
