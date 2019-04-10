@@ -212,7 +212,7 @@ h1 {
     margin-top: 0;
   }  
 
-  #lifestyle {
+ /*#lifestyle {
     height: 100vh;
   }
 
@@ -226,7 +226,7 @@ h1 {
 
   #testimonials {
     height: 100vh;
-  }
+  } */
   
 /*!----------------- SECTION BACKGROUND COLOR -------------*/
   .new-background {
@@ -305,7 +305,7 @@ h1 {
 /*!--------------IMAGES-------------------*/
 
 .first-slide-img {
-  margin-top: 10px;
+  margin-top: 0;
   width: 100%;
   opacity: 0.7;
 } 
@@ -326,7 +326,7 @@ h1 {
 }
 
 .coaching-img {
-  margin-top: 56px;
+  margin-top: 40px;
 }
 
 .img-padding{
@@ -343,7 +343,6 @@ h1 {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
 }
 
 .img-yoga-video {
