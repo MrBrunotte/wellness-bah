@@ -10,17 +10,17 @@ The navbar is fixed to the top so it always is reachable. And it is always possi
 
 The sign up/courses/coaching pages all have a home button for easy access.
 ## Features
-..* My vision/Photos & Videos/Lifestyle part is to plant interest and "I want more" feeling to keep the user on the website.
-..* The navbar takes the user to the "money making" parts of the website. The aim is to make the user sign up for the different courses and coaching programs.
-..* Testimonial are also to boost the users "I want more" feeling so that they are confident to sign up.
+* My vision/Photos & Videos/Lifestyle part is to plant interest and "I want more" feeling to keep the user on the website.
+* The navbar takes the user to the "money making" parts of the website. The aim is to make the user sign up for the different courses and coaching programs.
+* Testimonial are also to boost the users "I want more" feeling so that they are confident to sign up.
 ### Existing Features
 ### Features Left to Implement
-..* A photo page whit photos
+* A photo page whit photos
 ## Technologies Used
-..* Bootstrap
-..* Fontawsome
-..* Google fonts
-..* jQuery
+* Bootstrap
+* Fontawsome
+* Google fonts
+* jQuery
 ## Testing
 
 ## Deployment
