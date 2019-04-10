@@ -3,6 +3,8 @@ This is a website that is made for Ruth Brunotte, who is a Plant-Based Health Ne
 The purpose of the website is for her to have a comunication channel to attract new customers, interact with her clients and promote herself.
 The website is under construction and is subject to modification in the future.
 ## UX
+### Wireframe
+Link to my wireframe for this project: https://balsamiq.cloud/sq5p6wd/p8jn8lc
 This website is for Ruth Brunotte who wants to start her own business in the Bahamas. She wants to help people acheive better health by following a plant-based diet and eating less dairy and meat products.
 The typical user is someone who wants a change in their life. It might be because of disease or something else. When the potential client finds the website he/she should be attracted by the landingpage/wellness page. By using less option for the user to interact with the aim is to direct the user towards the courses och coaching section where they can sign up.
 
