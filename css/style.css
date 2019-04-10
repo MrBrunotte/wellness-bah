@@ -7,12 +7,12 @@ h1 {
     letter-spacing: 0.2em;
 }h2 {
   text-transform: capitalize;
+  font-weight: bold
 }
 
 .carousel-subheading {
     text-transform: capitalize;
     letter-spacing: 0.2em;
-    font-weight: bold;
 }
 
 .carousel-caption p {
@@ -211,22 +211,6 @@ h1 {
     padding-top: 0;
     margin-top: 0;
   }  
-
- /*#lifestyle {
-    height: 100vh;
-  }
-
-  #courses {
-    height: 100vh;
-  }
-
-  #coaching {
-    height: 100vh;
-  }
-
-  #testimonials {
-    height: 100vh;
-  } */
   
 /*!----------------- SECTION BACKGROUND COLOR -------------*/
   .new-background {
@@ -412,5 +396,25 @@ margin: 0;
   @media (min-width: 62em) {
     .featurette-heading {
       margin-top: 7rem;
+    }
+  }
+
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    h3 {
+      font-size: 1.2em;
+  }
+
+    p {
+      font-size: 14px;
     }
   }
