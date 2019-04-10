@@ -227,7 +227,8 @@ h1 {
   #testimonials {
     height: 100vh;
   }
-
+  
+/*!----------------- SECTION BACKGROUND COLOR -------------*/
   .new-background {
     background-color: #c7c7c7;
     margin-top: -64px;
@@ -238,8 +239,9 @@ h1 {
   .new-background-top {
     background-color: #c7c7c7;
     margin-top: -64px;
+    margin-bottom: -56px;
     padding-top: 64px;
-    padding-bottom: -56px;;
+    padding-bottom: -56px;
   }
 
   .background-testimonials {
