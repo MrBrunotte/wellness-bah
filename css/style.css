@@ -371,7 +371,7 @@ video {
 
 /*!---------------------LOGO SETTINGS--------------------*/
 .sb {
-  background-color: rgb(214, 214, 214);
+  background-color: transparent;
   color: rgba(176, 0, 0, 0.4) !important;
   margin: 0 !important;
   padding: 0 !important;
