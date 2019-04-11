@@ -283,6 +283,10 @@ line-height: 1.4;
   margin-bottom: -64px;
 }
 
+.background-photos {
+  background-color: #c7c7c7;
+}
+
 /*!--------------IMAGES-------------------*/
 
 .first-slide-img {
@@ -341,7 +345,40 @@ line-height: 1.4;
 video {
   width: 80%;
 }
+  /*!---------- PHOTOS.HTML FILE ---------------*/
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
 
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
 
 
 
