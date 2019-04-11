@@ -408,3 +408,11 @@ margin: 0;
       font-size: 14px;
     }
   }
+
+  @media (min-width: 200px) {
+    .justify-content-md-center {
+      -ms-flex-pack: center !important;
+      justify-content: center !important;
+  }
+}
+  
