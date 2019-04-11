@@ -82,16 +82,16 @@
 
         <!--! Checkboxes for coching-->
         <div class="container">
-            <h4>Please check box of the course you are interested in!</h4><br />
-            <div class="form-check form-check-inline">
+            <h4>Please check box of the course you are interested in!</h4>
+            <div class="form-check form-check-block">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                 <label class="form-check-label" for="inlineCheckbox1">Kick-Start coaching</label>
             </div>
-            <div class="form-check form-check-inline">
+            <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                 <label class="form-check-label" for="inlineCheckbox2">Newbie coaching</label>
             </div>
-            <div class="form-check form-check-inline">
+            <div class="form-check">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                 <label class="form-check-label" for="inlineCheckbox3">3-Month coaching</label>
             </div>
@@ -103,37 +103,37 @@
                 <div class="form-row">
                     <div class="col-md-4 mb-3">
                         <label for="validationTooltip01">First name</label>
-                        <input type="text" class="form-control" id="validationTooltip01" placeholder="First name"
-                            value="Your first name here.." required>
+                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Your first name.."
+                            value="" required>
                         <div class="valid-tooltip">
                             Looks good!
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
                         <label for="validationTooltip02">Last name</label>
-                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name"
-                            value="Your last name here.." required>
+                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Your last name.."
+                            value="" required>
                         <div class="valid-tooltip">
                             Looks good!
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="validationTooltipUsername">Username</label>
+                        <label for="validationTooltipUsername">Email</label>
                         <div class="input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
                             </div>
                             <input type="text" class="form-control" id="validationTooltipUsername"
-                                placeholder="Your preferred username here.."
-                                aria-describedby="validationTooltipUsernamePrepend" required>
+                                placeholder="Your email here.." aria-describedby="validationTooltipUsernamePrepend"
+                                required>
                             <div class="invalid-tooltip">
-                                Please choose a unique and valid username.
+                                Must be a valid email adress!
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="form-row">
-                    <div class="col-md-6 mb-3">
+                    <div class="col-md-4 mb-3">
                         <label for="validationTooltip03">City</label>
                         <input type="text" class="form-control" id="validationTooltip03"
                             placeholder="The city you live in.." required>
@@ -141,7 +141,7 @@
                             Please provide a valid city.
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3">
+                    <div class="col-md-2 mb-3">
                         <label for="validationTooltip04">State</label>
                         <input type="text" class="form-control" id="validationTooltip04" placeholder="Your state.."
                             required>
@@ -149,7 +149,7 @@
                             Please provide a valid state.
                         </div>
                     </div>
-                    <div class="col-md-3 mb-3">
+                    <div class="col-md-2 mb-3">
                         <label for="validationTooltip05">Zip</label>
                         <input type="text" class="form-control" id="validationTooltip05" placeholder="Your zip code.."
                             required>
@@ -157,12 +157,20 @@
                             Please provide a valid zip.
                         </div>
                     </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationTooltip05">Country</label>
+                        <input type="text" class="form-control" id="validationTooltip06" placeholder="Your country.."
+                            required>
+                        <div class="invalid-tooltip">
+                            Please provide a valid country.
+                        </div>
+                    </div>
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto">
-                        <p><a class="btn btn-readmore" role="button" href="index.html" target="">Contact me
+                        <p><a class="btn btn-readmore" role="button" href="index.html" target="">Send
                                 &raquo;</a></p>
-                        <p><a class="btn btn-readmore" role="button" href="index.html">&laquo; Back to
+                        <p><a class="btn btn-home" role="button" href="index.html">&laquo; Back to
                                 home
                             </a></p>
                     </div>

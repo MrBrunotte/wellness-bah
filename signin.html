@@ -56,13 +56,42 @@
 
 <body class="text-center">
     <form class="form-signin">
-        <img class="mb-4" src="img\sunrise_fixed.jpg" alt="" width="290" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Your email address here.." required
-            autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Your password here.." required>
+        <img class="mb-4" src="img\sunrise_fixed.jpg" alt="Sunrise image" width="290" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Welcome!</h1>
+
+        <div class="col-md-12 mb-3">
+            <label for="validationTooltipUsername">Username</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Email"
+                    aria-describedby="validationTooltipUsernamePrepend" required>
+                <div class="invalid-tooltip">
+                    Must be an email adress!
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-12 mb-3">
+            <label for="validationTooltip01">Name</label>
+            <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" value="" required>
+            <div class="valid-tooltip">
+                Looks good!
+            </div>
+        </div>
+
+        <div class="col-md-12 mb-3">
+            <label for="inputPassword">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <div class="invalid-feedback">
+                Please enter a valid password!
+            </div>
+        </div>
+
+
         <div class="checkbox mb-3">
             <label>
                 <input type="checkbox" value="remember-me"> Remember me
@@ -73,11 +102,12 @@
                 <p><a class="btn btn-readmore" role="button" href="index.html" target="_blank">Sign in
                         &raquo;</a>
                 </p>
-                <p><a class="btn btn-readmore" role="button" href="index.html">&laquo; Back to
+                <p><a class="btn btn-home" role="button" href="index.html">&laquo; Back to
                         Wellnes
                     </a></p>
             </div>
         </div>
+
         <footer class="container-logo" id="stefanbrunotte">
             <div>
                 <p class="sb"><strong>Web DeBB</strong><br />Web Design By Brunotte<br />© 2019</p>

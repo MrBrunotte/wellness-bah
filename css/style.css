@@ -227,6 +227,28 @@ line-height: 1.4;
   text-decoration: none;
 }
 
+.btn-home {
+  padding-top: 3px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: #adacac;
+  border-color: #adacac;
+  font-family: "Nobile", sans-serif !important;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  width: 200px;
+  z-index: 1;
+}
+
+.btn-home:hover,
+.btn-home:active,
+.btn-home:focus,
+.btn-home:active:focus {
+  color: rgb(0, 0, 0);
+  background-color: #8d8a8a;
+  border-color: #8d8a8a;
+}
+
 
 /*!--------------SECTIONS-------------------*/
 
@@ -334,11 +356,6 @@ video {
   margin-top: 0px !important;
 }
 
-
-
-
-
-/*!--------------CONTACT FORM-------------------*/
 .form-check-label {
   text-align: center;
   text-transform: capitalize;
@@ -389,6 +406,7 @@ margin: 0;
     }
   }
 
+  /*! smaller font size for smaller screens */
   @media (max-width: 991px) {
     h1 {
       font-size: 20px;
