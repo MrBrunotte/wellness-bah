@@ -155,7 +155,7 @@ line-height: 1.4;
 
   /*!------------- FEATURETTES ------------------------- */
   .featurette-top {
-    margin-top: 70px;
+    margin-top: 0px;
   }
 
   .featurette-divider {
@@ -342,9 +342,11 @@ line-height: 1.4;
   margin-top: 20px; 
 }
 
-video {
-  width: 80%;
+.video-location {
+  margin-top: top 182px !important;
 }
+
+
   /*!---------- PHOTOS.HTML FILE ---------------*/
 .jumbotron {
   padding-top: 3rem;
