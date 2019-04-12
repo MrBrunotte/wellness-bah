@@ -2,6 +2,8 @@
 
 body {
     font-family: 'Nobile', sans-serif;
+    margin-top: -11px;
+    padding-bottom: 0rem;
 }
 
 h1 {
@@ -31,6 +33,19 @@ h2 {
   .a-styling:focus,
   .a-styling:active:focus {
     color: rgb(207, 88, 41);
+    text-decoration: none;
+  }
+
+  .a-signin {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .a-signin:hover,
+  .a-signin:active,
+  .a-signin:focus,
+  .a-signin:active:focus {
+    color: white;
     text-decoration: none;
   }
 
@@ -350,7 +365,7 @@ line-height: 1.4;
 }
 
 .coaching-img {
-  margin-top: 40px;
+  margin-top: 37px;
 }
 
 .img-padding{
