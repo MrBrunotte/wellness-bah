@@ -20,7 +20,7 @@ h1 {
 /*!--------------NAVBAR-------------------*/
 
 .navbar {
-  padding-bottom: 0px;
+  padding-bottom: 3px;
   padding-top: 4px;
 }
 
@@ -468,7 +468,6 @@ margin: 0;
 
   @media (min-width: 200px) {
     .justify-content-md-center {
-      -ms-flex-pack: center !important;
       justify-content: center !important;
   }
 }
