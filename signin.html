@@ -39,41 +39,38 @@
     <title>Ruth Brunotte | Vitality & Food!</title>
 </head>
 
-<body class="text-center">
+<body>
     <div class="form-signin">
-        <img class="mb-4 rounded-circle" src="img/sunrise_fixed.jpg" alt="Sunrise image" width="300" height="200">
         <h1 class="h3 font-weight-normal">Welcome back!</h1>
         <div class="col-md-12">
-            <form>
-                User name:<br><input type="text" name="userid">
-                <br>
-                User password:<br><input type="password" name="psw">
+            <form class="mb-5">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Your email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Remember me!</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
+
             </div>
             <div class="row justify-content-md-center">
                 <div class="col-md-auto">
-                    <p><a class="btn btn-readmore" role="button" href="index.html" target="_blank">Sign in
-                            &raquo;</a>
-                    </p>
-                    <p><a class="btn btn-home" role="button" href="index.html">&laquo; Back to
-                            Wellnes
-                        </a></p>
+                    <a href="index.html">&laquo; Back to Wellness</a>
                 </div>
             </div>
-            <footer class="container-logo" id="stefanbrunotte">
-                <div>
-                    <p class="sb"><strong>Web DeBB</strong><br />Web Design By Brunotte<br />© 2019</p>
-                </div>
-            </footer>
         </div>
-
-
     </div>
-
     <!-- Bootstrap CDN version of jQuery and Poppers.js - Pasted to the bottom of the body because i want it to load last -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
