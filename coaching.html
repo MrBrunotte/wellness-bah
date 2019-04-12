@@ -32,8 +32,6 @@
             }
         }
     </style>
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
 
     <!--! My style sheet link I want this to be loaded last! -->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
@@ -41,6 +39,30 @@
 </head>
 
 <body>
+    <!--! NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand  active" href="index.html#main">Wellness</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#coaching">Coaching</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#courses">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                    </li>
+                </ul>
+                <p><a class="btn btn--action" href="signin.html" role="button">Sign In &raquo;</a></p>
+            </div>
+        </nav>
+    </header>
     <main class="forms">
         <div class="carousel slide" data-ride="carousel" id="#contactform" style="margin-bottom: 1rem;">
             <div class="carousel-inner">
@@ -154,11 +176,9 @@
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto">
-                        <p><a class="btn btn-readmore" role="button" href="index.html">Send
-                                &raquo;</a></p>
-                        <p><a class="btn btn-home" role="button" href="index.html">&laquo; Back to
-                                Wellness
-                            </a></p>
+                        <div class="row justify-content-md-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
                     </div>
                 </div>
             </form>
@@ -166,8 +186,10 @@
 
         <hr>
         <footer class="container-logo" id="stefanbrunotte">
-            <div>
-                <p class="sb"><strong>Web DeBB</strong><br />Web Design By Brunotte<br />© 2019</p>
+            <div class="row justify-content-center">
+                <div class="col-md-auto">
+                    <p class="sb"><strong>Web DeBB</strong><br />Web Design By Brunotte<br />© 2019</p>
+                </div>
             </div>
         </footer>
     </main>
