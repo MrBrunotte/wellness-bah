@@ -5,11 +5,15 @@ body {
 }
 
 h1 {
-    text-transform: capitalize;
-    letter-spacing: 0.2em;
-}h2 {
+  font-family: 'Nobile', sans-serif !important;
   text-transform: capitalize;
-  font-weight: bold
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  font-family: 'Nobile', sans-serif !important;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
 #vitality {
@@ -33,7 +37,7 @@ h1 {
 /*!--------------NAVBAR-------------------*/
 
 .navbar {
-  padding-bottom: 0px;
+  padding-bottom: 3px;
   padding-top: 4px;
 }
 
@@ -303,7 +307,7 @@ line-height: 1.4;
   margin-top: -64px;
   margin-bottom: -40px;
   padding-top: 64px;
-  padding-bottom: 125px;;
+  padding-bottom: 220px;;
 }
 
 .background-testimonials {
