@@ -18,7 +18,7 @@ I used Bootstrap framwork that we have focused on in the training modules. I
 I use the `:hover`effect on my buttons and they also change color. I also use the Bootstrap Carousel slideshow to give the website some more life and movement. In the sign in page I have added a box shadow because I want the sign in form to stick out from the background.
 ##### Wireframe
 I used the balsamiq website [balsamiq](https://balsamiq.com/wireframes/) to create my wireframe.
-Link to my wireframe for this project: https://balsamiq.cloud/sq5p6wd/p8jn8lc
+[wellness-wireframe](https://github.com/MrBrunotte/wellness-bah/blob/master/Wellness%20Bahamas%20wireframe.pdf)
 
 ## Features
 The sites tree structure can be seen below. The user can choose to scroll through the page from top to bottom or he/she can use the navigation bar on top of the page, which sticks to the top when the page is scrolled down.
