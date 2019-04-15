@@ -7,9 +7,10 @@
     <meta name="description" content="Milestone Project 1 @ Code Institute" />
     <meta name="author" content="Web DeBB - Web Design By Brunotte" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!--! Bootstrap CSS links -->
-    <link href="/docs/4.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <!--! Bootstrap carousel-->
     <link rel="stylesheet" crossorigin="anonymous"
         href="https://ff.kis.v2.scr.kaspersky-labs.com/3232EEC8-80AF-7B4C-906E-E12234471F52/abn/main.css" />
@@ -22,11 +23,14 @@
     <link href="https://fonts.googleapis.com/css?family=Nobile:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" />
 
-    <!--! Bootstrap carousel style-->
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
             text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
         }
 
         @media (min-width: 768px) {
@@ -71,7 +75,7 @@
     <!--! Home/Wellness section -->
     <main id="main">
 
-        <div class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active">test</li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -399,7 +403,7 @@
         <!--! TESTIMONIALS SECTION-->
         <div id="testimonials">
             <div class="testimonial-section">
-                <div class="carousel slide" data-ride="carousel">
+                <div id="myCarousel-testimonials" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel-testimonials" data-slide-to="0" class="active">test</li>
                         <li data-target="#myCarousel-testimonials" data-slide-to="1"></li>
