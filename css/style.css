@@ -185,7 +185,6 @@ line-height: 1.4;
     margin-left: .75rem;
   }
 
-  /*!------------- FEATURETTES ------------------------- */
   .featurette-top {
     margin-top: 0px;
   }
@@ -523,10 +522,6 @@ footer p {
 
 .signing-text {
   text-align: center;
-}
-
-.signing-text::after {
-
 }
 
 /*!--------------------- MY LOGO SETTINGS--------------------*/
