@@ -302,6 +302,28 @@ line-height: 1.4;
   border-color: #292828;
 }
 
+.btn-login {
+  float: right;
+  padding-top: 3px;
+  padding-bottom: 2px;
+  color: white;
+  background-color: #555454;
+  border-color: #555454;
+  font-family: "Nobile", sans-serif !important;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.btn-login:hover,
+.btn-login:active,
+.btn-login:focus,
+.btn-login:active:focus {
+  color: rgb(207, 88, 41);
+  background-color: #292828;
+  border-color: #292828;
+}
+
 
 /*!--------------SECTIONS-------------------*/
 
@@ -426,6 +448,7 @@ line-height: 1.4;
   max-width: 40rem;
 }
 
+
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -451,6 +474,36 @@ footer p {
 .form-check-label {
   text-align: center;
   text-transform: capitalize;
+}
+
+/*---- form sign in ----*/
+.form_element {
+  margin: 0 0 1em 0;
+}
+
+.form_label {
+  font-size: 1.2em;
+  display: block;
+  margin: 0 0 0.4em 0;
+}
+
+.form_input {
+  width: 100%;
+  font-size: 1.1em;
+  padding: 0.6em;
+}
+
+.form_required {
+  float: right;
+  font-size: 0.5em;
+  background: rgba(240, 239, 239, 0.835);
+  padding: 0.3em;
+}
+
+.form_hint{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1em;
 }
 
 /*!--------------------- MY LOGO SETTINGS--------------------*/

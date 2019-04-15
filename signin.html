@@ -43,24 +43,36 @@
     <div class="form-signin">
         <h1 class="h3 font-weight-normal">Welcome back!</h1>
         <div class="col-md-12">
-            <form class="mb-5">
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Your email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
+            <!--! Form vith validation -->
+            <form action="/login" method="post">
+                <!-- email -->
+                <div class="form_element">
+                    <label for="email" class="form_label">
+                        Email
+                        <span class="form_required">Required</span>
+                    </label>
+                    <input class="form_input" type="text" id="email" name="email" required
+                        pattern="[^]+@[^]+[.][a-z]{2,63}$" autocomplete="email">
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <!-- password minimum 8 character long -->
+                <div class="form_element">
+                    <label class="form_label" for="password">
+                        Password
+                        <span class="form_required">Required</span>
+                    </label>
+                    <input class="form_input" id="password" type="password" name="password" required minlength="8"
+                        aria-describedby="passwordHint" autocomplete="current-password">
+                    <p class="form_hint"><small>The password must be at least 8 characters
+                            long</small></p>
+                    <input class="btn btn-login" type="submit" value="Sign in!">
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Remember me!</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in!</button>
+                <!-- forgot password anchor link -->
+                <a class="a-styling" href="/forgotPassword">Forgot password</a>
+
             </form>
+
+            <!--! END Form vith validation -->
+
             <div class="row justify-content-md-center">
                 <div class="col-md-auto">
                     <a class="a-styling" href="index.html">&laquo; Back to Wellness</a>
