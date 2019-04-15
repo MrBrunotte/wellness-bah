@@ -98,6 +98,8 @@ I have run all HTML code through the validators and there are no warnings.
 
 I have run all CSS code through the validator and there was only one warning in style.css (same color for [background-color] and [border-color]) which is OK.
 
+I have also tested the sites responsivness on different screen sizes.
+
 ## Technologies Used
 * Bootstrap
 * Fontawsome
@@ -106,7 +108,7 @@ I have run all CSS code through the validator and there was only one warning in 
 
 ## DEPLOYMENT
  I have deployed the project using GitHub Pages, and my websit is available here: https://mrbrunotte.github.io/wellness-bah/
- 
+
 ## CREDITS
 ### Content
 Lorem Ipsum have been used since my mother is not finished with all her text. I have added text (that will be changed in the future) to some parts.
