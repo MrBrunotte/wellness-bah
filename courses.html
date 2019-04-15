@@ -110,77 +110,66 @@
 
             <!--! Contact form -->
 
-            <form class="needs-validation" novalidate>
+            <form action="/action_page.php" method="post">
                 <div class="form-row">
                     <div class="col-md-4 mb-3">
-                        <label for="validationTooltip01">First name</label>
-                        <input type="text" class="form-control" id="validationTooltip01" placeholder="Your first name.."
-                            value="" required>
-                        <div class="valid-tooltip">
-                            Looks good!
+                        <div class="form-element">
+                            <!-- First name and Last name is required, only letters are allowed and a minimum of 2 characters-->
+                            <label class="form-label" for="firstname">First name<span
+                                    class="form-required">required</span></label>
+                            <input class="form-input" type="text" id="firstname" name="firstname" required
+                                pattern="[a-z]{2,63}$" autocomplete="email" placeholder="Your name..">
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="validationTooltip02">Last name</label>
-                        <input type="text" class="form-control" id="validationTooltip02" placeholder="Your last name.."
-                            value="" required>
-                        <div class="valid-tooltip">
-                            Looks good!
+                        <div class="form-element">
+                            <label class="form-label" for="lastname">Last name<span
+                                    class="form-required">required</span></label>
+                            <input class="form-input" type="text" id="lastname" name="lastname" required
+                                pattern="[a-z]{2,63}$" autocomplete="email" placeholder="Your last name..">
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="validationTooltipUsername">Email</label>
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                            </div>
-                            <input type="text" class="form-control" id="validationTooltipUsername"
-                                placeholder="Your email here.." aria-describedby="validationTooltipUsernamePrepend"
-                                required>
-                            <div class="invalid-tooltip">
-                                Must be a valid email adress!
-                            </div>
+                        <div class="form-element">
+                            <!-- Email is required and only in valid format -->
+                            <label class="form-label" for="lastname">Email<span
+                                    class="form-required">required</span></label>
+                            <input class="form-input" type="text" id="email" name="email" required
+                                pattern="[^]+@[^]+[.][a-z]{2,63}$" autocomplete="email" placeholder="Your email..">
                         </div>
                     </div>
                 </div>
                 <div class="form-row">
                     <div class="col-md-4 mb-3">
-                        <label for="validationTooltip03">City</label>
-                        <input type="text" class="form-control" id="validationTooltip03"
-                            placeholder="The city you live in.." required>
-                        <div class="invalid-tooltip">
-                            Please provide a valid city.
+                        <div class="form-element">
+                            <label class="form-label" for="city">City</label>
+                            <input class="form-input" type="text" id="city" name="city" placeholder="Your city..">
                         </div>
                     </div>
                     <div class="col-md-2 mb-3">
-                        <label for="validationTooltip04">State</label>
-                        <input type="text" class="form-control" id="validationTooltip04" placeholder="Your state.."
-                            required>
-                        <div class="invalid-tooltip">
-                            Please provide a valid state.
+                        <div class="form-element">
+                            <label class="form-label" for="city">State</label>
+                            <input class="form-input" type="text" id="state" name="state" placeholder="Your state..">
                         </div>
                     </div>
                     <div class="col-md-2 mb-3">
-                        <label for="validationTooltip05">Zip</label>
-                        <input type="text" class="form-control" id="validationTooltip05" placeholder="Your zip code.."
-                            required>
-                        <div class="invalid-tooltip">
-                            Please provide a valid zip.
+                        <div class="form-ementel">
+                            <label class="form-label" for="city">Zip code</label>
+                            <input class="form-input" type="text" id="zip" name="zip" placeholder="Your zip code..">
                         </div>
                     </div>
                     <div class="col-md-4 mb-3">
-                        <label for="validationTooltip05">Country</label>
-                        <input type="text" class="form-control" id="validationTooltip06" placeholder="Your country.."
-                            required>
-                        <div class="invalid-tooltip">
-                            Please provide a valid country.
+                        <div class="form-element">
+                            <label class="form-label" for="country">Country</label>
+                            <input class="form-input" type="text" id="country" name="country"
+                                placeholder="Your country code..">
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-md-auto">
                         <div class="row justify-content-md-center">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <input class="btn btn-login" type="submit" value="Submit!">
                         </div>
                     </div>
                 </div>

@@ -41,28 +41,30 @@
 
 <body>
     <div class="form-signin">
-        <h1 class="h3 font-weight-normal">Welcome back!</h1>
+        <div class="header-signin">
+            <h4>Welcome back!</h4>
+        </div>
         <div class="col-md-12">
             <!--! Form vith validation -->
             <form action="/login" method="post">
                 <!-- email -->
-                <div class="form_element">
-                    <label for="email" class="form_label">
+                <div class="form-element">
+                    <label for="email" class="form-label">
                         Email
-                        <span class="form_required">Required</span>
+                        <span class="form-signin-required">Required</span>
                     </label>
-                    <input class="form_input" type="text" id="email" name="email" required
+                    <input class="form-input" type="text" id="email" name="email" required
                         pattern="[^]+@[^]+[.][a-z]{2,63}$" autocomplete="email">
                 </div>
                 <!-- password minimum 8 character long -->
-                <div class="form_element">
-                    <label class="form_label" for="password">
+                <div class="form-element">
+                    <label class="form-label" for="password">
                         Password
-                        <span class="form_required">Required</span>
+                        <span class="form-signin-required">Required</span>
                     </label>
-                    <input class="form_input" id="password" type="password" name="password" required minlength="8"
+                    <input class="form-input" id="password" type="password" name="password" required minlength="8"
                         aria-describedby="passwordHint" autocomplete="current-password">
-                    <p class="form_hint"><small>The password must be at least 8 characters
+                    <p class="form-hint"><small>The password must be at least 8 characters
                             long</small></p>
                     <input class="btn btn-login" type="submit" value="Sign in!">
                 </div>

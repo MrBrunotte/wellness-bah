@@ -477,33 +477,61 @@ footer p {
 }
 
 /*---- form sign in ----*/
-.form_element {
+.form-element {
   margin: 0 0 1em 0;
 }
 
-.form_label {
-  font-size: 1.2em;
+.form-label {
+  font-size: 1em;
   display: block;
-  margin: 0 0 0.4em 0;
+  margin: 0 0 0.1em 0;
 }
 
-.form_input {
+.form-input {
   width: 100%;
-  font-size: 1.1em;
-  padding: 0.6em;
+  font-size: 0.8em;
+  padding: 0.4em;
+  margin: 0;
 }
 
-.form_required {
+.form-required {
+  font-size: 0.6em;
+  background: rgba(240, 239, 239, 0.835);
+  padding-top: 0.5em;
+  padding-bottom: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: 1em;
+}
+
+.form-signin-required {
   float: right;
   font-size: 0.5em;
   background: rgba(240, 239, 239, 0.835);
   padding: 0.3em;
+  margin: 0 0 0.1em 0;
 }
 
-.form_hint{
+.form-hint{
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 1.1em;
+  font-size: 0.8em;
+}
+
+.header-signin {
+  margin-left: 15px;
+}
+
+.signin-greeting {
+  text-align: center;
+}
+
+.signing-text {
+  text-align: center;
+}
+
+.signing-text::after {
+  
 }
 
 /*!--------------------- MY LOGO SETTINGS--------------------*/
