@@ -13,7 +13,7 @@ The sign up/courses/coaching pages all have a home button for easy access.
 ## DESIGN
 
 #### FRAMEWORK
-I used Bootstrap framwork that we have focused on in the training modules. I
+I have used the Bootstrap framwork that we have focused on in the training modules.
 #### UX DESIGN
 I use the `:hover`effect on my buttons and they also change color. I also use the Bootstrap Carousel slideshow to give the website some more life and movement. In the sign in page I have added a box shadow because I want the sign in form to stick out from the background.
 ##### Wireframe
@@ -38,6 +38,8 @@ I have the navigation bar on every page except the sign in page where I have a S
 * Sign in
     * Sign in form
 
+The design of the pages have been made to follow the same structure. I also wanted the forms to have the same design but with the corresponding image in the form. 
+
 ###### [index.html] (https://mrbrunotte.github.io/wellness-bah/#main)
 This is my landing page (home page). My aim with the landing page is to make the user feel interested and to want to explore more. This is done by using a slider carousel that displays plant-based food and some text of what services my mother is offering.
 There are three [<btn>] elements, that are designed in CSS so that the user can read more about my mother and hopefully spark some more interest.
@@ -54,18 +56,17 @@ Each section has has some explanation text and [<btn>] that directs the user to 
 The testimonial section displays two happy clients that have gone through a course and the coaching program.
 
 ###### Sign in
-The existing client log in here.
+The existing clients log in here.
 
 ###### Forms
-The coaching and courses forms have the same display as their parent, I did this because I want to maintain the consistent feel of the website.
+The coaching and courses forms have the same display as their parent with a navbar on top, I did this because I want to maintain the consistent feel of the website.
 The login form is simple and clean.
-
-In the forms there are a "back to Wellness" button that takes the user back to the Wellness/landingpage. This button is made to not give the same focus as the "Sign In" or "Send" buttons.
+All forms are validated and the user have to type their name and email correctly before they can proceed.
 
 ##### Whish List
 Future Implementations:
 * Make the site load quicker on mobile.
-* Develop the site further with more features.
+* Develop the site further with more features and content.
 
 ## TECHNOLOGIES
 In this project I have used:
@@ -97,8 +98,6 @@ I have run all HTML code through the validators and there are no warnings.
 
 I have run all CSS code through the validator and there was only one warning in style.css (same color for [background-color] and [border-color]) which is OK.
 
-### Features Left to Implement
-* A photo page whit photos
 ## Technologies Used
 * Bootstrap
 * Fontawsome
@@ -107,6 +106,7 @@ I have run all CSS code through the validator and there was only one warning in 
 
 ## DEPLOYMENT
  I have deployed the project using GitHub Pages, and my websit is available here: https://mrbrunotte.github.io/wellness-bah/
+ 
 ## CREDITS
 ### Content
 Lorem Ipsum have been used since my mother is not finished with all her text. I have added text (that will be changed in the future) to some parts.
