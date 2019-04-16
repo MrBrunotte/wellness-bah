@@ -1,4 +1,4 @@
-# Wellness Bahamas
+# Wellness
 
 ###### Code Institute / User-Centric Front-End Development
 
