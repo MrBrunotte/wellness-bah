@@ -107,7 +107,7 @@ I have tested the website manually and all the links work as intended, I have no
 I followed the link to the form page, on every step I tested if I could go to all other pages from where I was. The path from the navbar to the form and back all work and all other parts are also reachable at every stage when the link is clicked.
 ##### Photos & Video
 I made sure that the video was not on auto play, the user has to manually play the video.
-###### Photos
+#### Photos
 I tested if the navbar with all links worked correctly from the Photo section, which it did.
 I tested the "back to top" link and the "Back to Wellness" link, they both worked as they were intended to.
 #### Forms
