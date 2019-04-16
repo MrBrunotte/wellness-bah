@@ -604,8 +604,12 @@ margin: 0;
 }
 
 @media (max-width: 991.98px) {
-  .navbar-collapse {
-
-  }
+  .a-signin {
+    float: right;
+    color: white;
+    font-size: 12px;
+    content: right;
 }
+}
+
 
